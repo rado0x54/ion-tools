@@ -9,7 +9,6 @@
   "license": "Apache-2.0",
   "main": "ion.js/lib.js",
   "scripts": {
-    "build": "npm run ionJs",
     "ionJs": "browserify -p esmify ./ion.js/lib.js -o ./dist/ion.js && gulp ion.js"
   },
   "devDependencies": {
